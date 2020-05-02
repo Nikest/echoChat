@@ -1,0 +1,24 @@
+.container {
+  transition: .25s;
+  color: #000;
+  font-size: 16px;
+  padding: 10px 10px;
+}
+
+.none {
+  min-height: 0;
+}
+
+.success {
+  min-height: 40px;
+  background: var(--bg-success);
+  border-left: 3px solid var(--bg-success-dark);
+  opacity: 1;
+}
+
+.error {
+  min-height: 40px;
+  background: var(--bg-error);
+  border-left: 3px solid var(--bg-error-dark);
+  opacity: 1;
+}

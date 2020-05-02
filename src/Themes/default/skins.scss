@@ -1,0 +1,37 @@
+@import '../fonts/Roboto';
+
+:global {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background: #edeef0;
+
+    &.theme-default {
+      --header-bg: #4a76a8;
+      --hover-bg: #edeef0;
+      --main-bg: #fff;
+      --color-text-on-bg: #fff;
+      --color-text-main: #000;
+      --text-decoration-color: #2a5885;
+      --text-decoration-color-2: #67707a;
+      --modal-border: #edeef0;
+      --bg-header: #4a76a8;;
+      --modal-bg: #red;
+      --border-radius: 4px;
+      --self-bg: #c3d8f1;
+
+      --bg-success: #d1ffd6;
+      --bg-success-dark: #72af8d;
+      --bg-error: #ffdede;
+      --bg-error-dark: #af6f7a;
+    }
+  }
+}

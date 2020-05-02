@@ -1,0 +1,11 @@
+@mixin gridBase($columnGap, $rowGap) {
+  display: grid;
+  grid-column-gap: $columnGap;
+  grid-row-gap: $rowGap;
+}
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

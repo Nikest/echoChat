@@ -1,0 +1,19 @@
+.container {
+  color: var(--color-text-on-bg);
+  width: 720px;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  padding-top: 15px;
+  @include flexCenter();
+  flex: 1 1 auto;
+}
+
+.alert {
+  min-height: 40px;
+}
