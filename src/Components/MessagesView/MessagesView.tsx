@@ -1,8 +1,7 @@
 import * as React from 'react';
 
-import { sl, storeInterface, cd, storeInjector } from 'Services';
+import { cd, storeInjector } from 'Services';
 import { Message, IMessage } from 'Components';
-import {on} from "cluster";
 
 
 interface IMessagesViewProps {

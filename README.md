@@ -27,4 +27,4 @@ Testing in:
 
 * src/Services/Store/Store.test.ts
 * src/Services/EventEmitter/EventEmitter.test.ts
-* src/Components/UserView/UserView.test.tsx
+* src/Components/UserView/MessagesView.test.tsx
