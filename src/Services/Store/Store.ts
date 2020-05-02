@@ -1,4 +1,4 @@
-import { eventEmitter } from 'Services';
+import { eventEmitter } from '../EventEmitter';
 
 const storage = {};
 
