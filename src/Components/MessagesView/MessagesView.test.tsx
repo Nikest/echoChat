@@ -18,6 +18,7 @@ describe('Testing of rendering user data', () => {
                 hash: 'hash'
             }]
         });
-        console.log(wrapper.html());
+
+        // need to find button in emulated componend, try to trigger "onClick" event and detect state changed or not
     })
 });
